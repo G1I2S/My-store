@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tienda Online</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Mi Tienda Online</h1>
+    <p class="subtitle">Los mejores productos  al mejor precio</p>
+  </header>
+
+  <main class="container">
+    <div class="card" data-precio="400000">
+      <div class="card-image">
+        <img src="ASSETS/IMG/Laptop .jpg" alt="Laptop Gamer AMD">
+        <span class="badge">Popular</span>
+      </div>
+      <div class="card-content">
+        <h2>Laptop Gamer AMD</h2>
+        <p class="precio">Precio: <span>$400,000</span></p>
+        <div class="quantity-control">
+          <p class="cantidad">Cantidad: <strong>0</strong></p>
+          <div class="buttons">
+            <button class="btnRestar">−</button>
+            <button class="btnSumar">+</button>
+          </div>
+        </div>
+        <p class="total">Total: <span>$0</span></p>
+      </div>
+    </div>
+
+    <div class="card" data-precio="20000">
+      <div class="card-image">
+      <img src="ASSETS/IMG/mouse .avif" alt="Mouse Inalámbrico">
+        <span class="badge sale">Oferta</span>
+      </div>
+      <div class="card-content">
+        <h2>Mouse Inalámbrico</h2>
+        <p class="precio">Precio: <span>$20,000</span></p>
+        <div class="quantity-control">
+          <p class="cantidad">Cantidad: <strong>0</strong></p>
+          <div class="buttons">
+            <button class="btnRestar">−</button>
+            <button class="btnSumar">+</button>
+          </div>
+        </div>
+        <p class="total">Total: <span>$0</span></p>
+      </div>
+    </div>
+
+    <div class="card" data-precio="50000">
+      <div class="card-image">
+        <img src="ASSETS/IMG/teclado.avif" alt="Teclado Mecánico">
+        <span class="badge new">Nuevo</span>
+      </div>
+      <div class="card-content">
+        <h2>Teclado Mecánico</h2>
+        <p class="precio">Precio: <span>$50,000</span></p>
+        <div class="quantity-control">
+          <p class="cantidad">Cantidad: <strong>0</strong></p>
+          <div class="buttons">
+            <button class="btnRestar">−</button>
+            <button class="btnSumar">+</button>
+          </div>
+        </div>
+        <p class="total">Total: <span>$0</span></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="total-section">
+      <h2 id="totalGeneral">Total general: <span>$0</span></h2>
+      <button class="btn-checkout">Finalizar Compra</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
